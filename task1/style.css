@@ -1,0 +1,250 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: linear-gradient(white, lightgreen);
+}
+#first
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+#first header
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow: hidden;
+}
+#first div
+{
+	float: right;
+	position: relative;
+	
+	padding-top:20px ;
+	width: auto;
+}
+#first img
+{
+	height: 100px;
+	width: 300px;
+	margin-left: 20px;
+}
+#first button
+{
+	font-size: 20px;
+	width: 100px;
+	padding: 5px;
+	border-radius: 15px;
+}
+#first .sign
+{
+	background: linear-gradient(lightgreen, yellowgreen);
+	border: none;
+	color: darkgreen;
+	font-weight: bolder;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.sign:hover
+{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+#first .log
+{
+	background: linear-gradient(pink, deeppink);
+	border: none;
+	color: darkred;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.log:hover
+{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+#second
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 3rem;
+	padding-top: 5rem;
+}
+#second .description
+{
+	padding: 30px;
+	margin: 20px;
+
+}
+.description h1
+{
+	font-size: 6rem;
+	font-family: Lobster;
+	color: darkgreen;
+	padding: 10px;
+	text-align: center;
+}
+.description h3
+{
+	font-size: 4rem;
+	font-family: Aclonica;
+	color: forestgreen;
+
+}
+.description .explore
+{
+	width: 100%;
+	font-size: 26px;
+	cursor: pointer;
+	border: none;
+	border-radius: 15px;
+	background: linear-gradient(lightgreen, darkgreen);
+	color: white;
+	padding: 1rem;
+	font-weight: bolder;
+}
+.explore:hover
+{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+#second .image img
+{
+	position: relative;
+
+	float: right;
+	height: 25rem;
+	width: 35rem;
+	transform: rotateZ(30deg);
+}
+
+#third
+{
+	padding-left: 6rem;
+	padding-right: 6rem;
+	margin: 0px;
+
+}
+#third .demo
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 0px !important;
+	transform: scale(0.8);
+}
+.demo div img
+{
+	width: 8rem;
+	height: 8rem;
+	padding: 2rem;
+}
+.demo div 
+{
+	position: relative;
+	left: 10%;
+	padding: 15px;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: serif;
+	color: darkgreen;
+	cursor: pointer;
+}
+.demo div:hover
+{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+#fourth
+{
+	padding-top: 2%;
+	justify-content: center;
+}
+#fourth address
+{
+	position: relative;
+	left: 5%;
+	font-size: 22px;
+	font-weight: bold;
+	color: darkgreen;
+}
+#fourth p
+{
+	text-align: center;
+	font-size: 20px;
+}
+
+@media (max-width: 450px)
+{
+	html{
+		font-size: 45%;
+		background-repeat: no-repeat;
+	}
+	header
+	{
+		width: 100%;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+	header div{
+		position: relative;
+		left: 1%;
+	}
+	#second
+	{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+	}
+	#second .description{
+		margin: 0px;
+		padding: 0px;
+	}
+	#second .image img
+	{
+		display: none;
+		position: relative;
+		left: 0%;
+		padding: 0pxx;
+		margin: 0px;
+
+	}
+	#third
+	{
+		overflow: hidden;
+		padding: 0px;
+		margin: 0pxx;
+	}
+	#third .demo
+	{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+		margin: 0px;
+	}
+	.demo div 
+	{
+		font-size: 16px;
+	}
+#fourth
+{
+	padding: 0px;
+	margin: 0px;
+}
+#fourth address
+{
+	font-size: 16px;
+}
+#fourth p 
+{
+	font-size: 12px;
+}
+}
