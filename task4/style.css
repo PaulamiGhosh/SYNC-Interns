@@ -1,0 +1,106 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	font-size: 100%;
+}
+
+#header ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 10px;
+}
+#header ul li a{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: cursive;
+	font-weight: bold;
+}
+#header header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#header header div button{
+	border-radius: 15px;
+	font-size: 24px;
+	border: none;
+	background: linear-gradient(white, pink);
+	width: 100px;
+	margin: 10px;
+	
+	font-family: cursive;
+	font-weight: bolder;
+	cursor: pointer;
+
+}
+#header header div button a{
+text-decoration: none;
+color: red;
+}
+#about{
+	padding: 1%;
+}
+#about img{
+	width: 100%;
+	height: 30rem;
+	z-index: 0;
+}
+#about p{
+	z-index: 10;
+	display: inline-block;
+	position: absolute;
+	
+	left: 40rem;
+	font-size: 4rem;
+	font-family: cursive;
+	text-align: justify;
+	font-weight: bolder;
+}
+
+#learning{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#learning div{
+	display: flex;
+	flex-direction: column;
+}
+#learning div img{
+	
+	height: 100px;
+	width: 100px;
+	justify-content:center;
+}
+#learning div h1{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: cursive;
+	color: orange;
+}
+#learning div button{
+	border-radius: 15PX;
+	width: 10rem;
+	font-size: 24px;
+	font-weight: bolder;
+	font-family: cursive;
+	background: linear-gradient(white, orange);
+	border: none;
+	color: red;
+	cursor: pointer;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}

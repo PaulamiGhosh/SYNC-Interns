@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+
+	<style type="text/css">
+		html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+body {
+  display:flex;
+}
+form {
+  margin:auto;/* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
+  font-size: 22px;
+  font-family: cursive;
+}
+fieldset{
+	width: 400px;
+	text-align: center;
+	background: linear-gradient(white, pink);
+	border: none;
+
+}
+fieldset legend{
+	color: darkred;
+	font-size: 30px;
+	font-weight: bolder;
+}
+fieldset button{
+	border: none;
+	border-radius: 15px;
+	background: linear-gradient(white, orange);
+	font-size: 24px;
+	width: 100px;
+}
+fieldset input{
+background: transparent;
+}
+	</style>
+
+
+</head>
+
+<body>
+<form>
+	<fieldset>
+		<legend>Sign In</legend>
+		User Name<br>
+		<input type="text" name="user"><br>
+		Password<br>
+		<input type="Password" name="Password"><br>
+		<button>Submit</button>
+	</fieldset>
+</form>
+</body>
+</html>
